@@ -2,7 +2,7 @@ import feedparser
 import requests
 from feedgen.feed import FeedGenerator
 
-SOURCE_RSS = "https://www.youtube.com/feeds/videos.xml?channel_id=UCZjpA3YBPXvJv3pg4SPEjfw"
+SOURCE_RSS = "https://www.youtube.com/feeds/videos.xml?channel_id=UCDnZ8zbVWLaVfuDmNuWq7rw"
 
 KEYWORDS = [
     "Olimpia",
