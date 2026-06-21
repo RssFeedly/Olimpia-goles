@@ -5,8 +5,8 @@ from feedgen.feed import FeedGenerator
 SOURCE_RSS = "https://www.youtube.com/feeds/videos.xml?channel_id=UCZjpA3YBPXvJv3pg4SPEjfw"
 
 KEYWORDS = [
-    "(goles)",
-    "Nacional"
+    "Olimpia",
+    
 ]
 
 rss_text = requests.get(SOURCE_RSS, timeout=30).text
