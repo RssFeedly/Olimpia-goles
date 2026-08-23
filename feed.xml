@@ -1,2 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>RSS Filtrado</title><link>https://www.youtube.com/feeds/videos.xml?channel_id=UCDnZ8zbVWLaVfuDmNuWq7rw</link><description>Videos filtrados de YouTube</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Sat, 22 Aug 2026 01:37:22 +0000</lastBuildDate></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>RSS Filtrado</title><link>https://www.youtube.com/feeds/videos.xml?channel_id=UCDnZ8zbVWLaVfuDmNuWq7rw</link><description>Videos filtrados de YouTube</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Sun, 23 Aug 2026 01:46:38 +0000</lastBuildDate><item><title>Olimpia 3-3 Cerro Porteño | Semifinales - Ida | Liga Premium 2026</title><link>https://www.youtube.com/watch?v=6yCUtBUynGk</link><description>PAREJO E INTENSO
+
+↔️Olimpia y Cerro Porteño empataron 3-3 en un partidazo jugado en Capiatá, por la ida de las semifinales de la #LigaPremium de futsal.
+
+⚽️Doblete de Gonzalo Agüero y uno de Óscar Martínez para el Ciclón. Los goles del Decano: Marco Solís y dos de Marcos Giménez.</description><pubDate>Sat, 22 Aug 2026 19:52:43 +0000</pubDate></item><item><title>Libertad 0-1 Olimpia | Fecha 17 | Campeonato Anual Femenino 2026</title><link>https://www.youtube.com/watch?v=i24RgjdIQxY</link><description>⚪️⚫️Con gol de Milagros Ortiz, Olimpia derrotó por 1-0 a Libertad y quedó como único puntero del Campeonato Anual Femenino con 50 puntos.
+
+🟥María Tamay vio la tarjeta roja en el conjunto gumarelo, así también Griselda Garay en el Decano.
+
+#APFfútbolFEM</description><pubDate>Sat, 22 Aug 2026 22:56:26 +0000</pubDate></item></channel></rss>
