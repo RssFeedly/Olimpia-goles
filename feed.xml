@@ -1,2 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>RSS Filtrado</title><link>https://www.youtube.com/feeds/videos.xml?channel_id=UCDnZ8zbVWLaVfuDmNuWq7rw</link><description>Videos filtrados de YouTube</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 01 Oct 2026 05:22:22 +0000</lastBuildDate></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>RSS Filtrado</title><link>https://www.youtube.com/feeds/videos.xml?channel_id=UCDnZ8zbVWLaVfuDmNuWq7rw</link><description>Videos filtrados de YouTube</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 02 Oct 2026 05:10:30 +0000</lastBuildDate><item><title>Máquina del Recuerdo | Olimpia 1-2 Nacional | Fecha 11 | Torneo Clausura 2009</title><link>https://www.youtube.com/watch?v=KkviEwx2pfg</link><description>¡MÁQUINA DEL RECUERDO!
+
+👌El juego resaltante de la fecha 13 del torneo #ClausuraAPF2026 lo protagonizarán Olimpia y Nacional.
+
+▶️Mirá este TBTAZO entre ambos y nos vamos al Clausura 2009, undécima jornada, en el Defensores del Chaco.
+
+⚽️Ganó la Academia 2-1, con doblete del Memo Guillermo Beltrán. El Pipino Nelson Cuevas adelantó al Decano.
+
+#EquipoTitular</description><pubDate>Thu, 01 Oct 2026 19:51:53 +0000</pubDate></item><item><title>⚽️Olimpia sacó provecho del juego aéreo y lo empató con el gol de Mateo Gamarra. #CopaParaguayAPF</title><link>https://www.youtube.com/shorts/ZatQXmFw0zg</link><pubDate>Thu, 01 Oct 2026 23:47:28 +0000</pubDate></item><item><title>Olimpia 1 (2) - (4) 1 Sportivo Luqueño | Octavos de Final | Copa Paraguay 2026</title><link>https://www.youtube.com/watch?v=HWRSVD2s-zs</link><description>🟡🔵En el último duelo de octavos de la Copa Paraguay 2026, en el Defensores, Sportivo Luqueño y Olimpia empataron 1-1. Óscar Ruiz adelantó al Auriazul y Mateo Gamarra igualó para el Decano.
+
+👉En penales, el Auriazul ganó 4-2 y avanzó a cuartos, donde enfrentará a Recoleta FC.</description><pubDate>Fri, 02 Oct 2026 00:58:24 +0000</pubDate></item></channel></rss>
