@@ -6,23 +6,32 @@ SOURCE_RSS = "https://www.youtube.com/feeds/videos.xml?channel_id=UCDnZ8zbVWLaVf
 
 KEYWORDS = [
     "Olimpia",
-    
 ]
 
-rss_text = requests.get(SOURCE_RSS, timeout=30).text
-feed = feedparser.parse(rss_text)
+# Cabeceras para simular un navegador y evitar bloqueos de YouTube en GitHub Actions
+headers = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+}
+
+print(f"Descargando feed de: {SOURCE_RSS}")
+response = requests.get(SOURCE_RSS, headers=headers, timeout=30)
+print(f"Código de estado HTTP: {response.status_code}")
+
+feed = feedparser.parse(response.text)
+print(f"Total de videos encontrados en el canal de YouTube: {len(feed.entries)}")
 
 fg = FeedGenerator()
 fg.title("RSS Filtrado")
 fg.link(href=SOURCE_RSS)
 fg.description("Videos filtrados de YouTube")
 
+added_count = 0
 for entry in feed.entries:
     title = entry.title
+    print(f"Revisando video: {title}")
 
     if any(k.lower() in title.lower() for k in KEYWORDS):
         fe = fg.add_entry()
-
         fe.title(title)
         fe.link(href=entry.link)
 
@@ -31,5 +40,9 @@ for entry in feed.entries:
 
         if hasattr(entry, "summary"):
             fe.description(entry.summary)
+            
+        added_count += 1
 
+print(f"Videos añadidos tras el filtro: {added_count}")
 fg.rss_file("feed.xml")
+print("Archivo feed.xml generado con éxito.")
